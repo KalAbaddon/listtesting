@@ -1,0 +1,39 @@
+<div class="card">
+    {#
+    {% set image = page.media.images|first %}
+    {% if image %}
+    <div class="card-image">
+        <a href="{{ page.url }}">{{ image.cropZoom(800,400).html }}</a>
+    </div>
+    {% endif %}
+    #}
+<center>
+    <div class="card-header">
+        <div class="card-subtitle text-gray">
+            
+        </div>
+        <div class="card-title">
+        {# {% include 'partials/blog/title.html.twig' with {title_level: 'h2'} %} #}
+         {% include 'partials/blog/taxonomy.html.twig' %}
+        </div>
+    </div>
+
+<a href="{{ page.url }}">
+    
+    <div class="card-body">
+    <b>--{{ page.header.taxonomy.author }}--</b><br />
+        
+            {{ page.summary }}
+                   
+        
+    </div>
+
+</a>
+    
+    <div class="card-footer">
+        
+       
+    </div>
+</div>
+
+</center>

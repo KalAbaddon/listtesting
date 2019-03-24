@@ -1,0 +1,12 @@
+name: Listd Theme
+version: 0.1.0
+description: Theme for Listd site
+icon: rebel
+author:
+  name: KalAbaddon
+homepage: https://github.com/KalAbaddon/listd.k13.app
+demo: https://LISTd.k13.app
+keywords: Listd, theme, 
+bugs: https://github.com/KalAbaddon/listd.k13.app/issues
+readme: https://github.com/KalAbaddon/listd.k13.app/blob/master/user/themes/listd-theme/README.md
+license: MIT
